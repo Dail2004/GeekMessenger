@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "390341974471",
+    "firebase_url": "https://geekchat-d2d68-default-rtdb.firebaseio.com",
+    "project_id": "geekchat-d2d68",
+    "storage_bucket": "geekchat-d2d68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390341974471:android:d8254b6b5b5991887a21e2",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390341974471-k350gvil3ud5ueeqkcm9lertjt0tfj8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "f8c35dd811e377557ff6cd049ea0c65b6283d102"
+          }
+        },
+        {
+          "client_id": "390341974471-fs7a1qo9sl7ioqthh57t63pgqsg4mfu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXHa_RBs-297w2F6XCLbapqnMK66ZlWdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390341974471-fs7a1qo9sl7ioqthh57t63pgqsg4mfu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
