@@ -17,17 +17,17 @@ object DatabaseModule {
 
     @Singleton
     val roomClient = RoomClient()
-
-    @Singleton
-    @Provides
-    fun provideRoom(
-        @ApplicationContext context: Context,
-    ): AppDatabase = roomClient.provideRoom(context)
-
-    @Singleton
-    @Provides
-    fun provideFooDao(
-        appDatabase: AppDatabase,
-    ): UserDao = roomClient.provideFooDao(appDatabase)
+//
+//    @Singleton
+//    @Provides
+//    fun provideRoom(
+//        @ApplicationContext context: Context,
+//    ): AppDatabase = roomClient.provideRoom(context)
+//
+//    @Singleton
+//    @Provides
+//    fun provideFooDao(
+//        appDatabase: AppDatabase,
+//    ): UserDao = roomClient.provideFooDao(appDatabase)
 
 }

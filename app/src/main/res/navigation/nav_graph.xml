@@ -12,11 +12,16 @@
         tools:layout="@layout/fragment_home"/>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.myapplication.presentation.ui.fragment.chat.SecondFragment"
+        android:name="com.example.myapplication.presentation.ui.fragment.chat.ChatFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        tools:layout="@layout/fragment_chat">
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.myapplication.presentation.ui.fragment.setting.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
 </navigation>

@@ -28,6 +28,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildToolsVersion '30.0.2'
 }
 
 dependencies {
@@ -52,7 +53,7 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.9'
 
     //Firebase
-    implementation("com.google.firebase:firebase-firestore-ktx:24.1.2")
+    implementation('com.google.firebase:firebase-firestore-ktx:24.2.0')
     implementation("com.google.firebase:firebase-storage:20.0.1")
     implementation("com.google.firebase:firebase-storage-ktx:20.0.1")
     implementation 'com.google.firebase:firebase-database-ktx:20.0.5'

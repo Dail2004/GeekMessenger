@@ -11,12 +11,12 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
 
-    @Singleton
-    @Provides
-    fun provideAuthenticateRepositories() = FirebaseFirestore.getInstance()
-
 //    @Singleton
 //    @Provides
-//    fun provideFireStorage() = FirebaseStorage.getInstance()
+//    fun provideAuthenticateRepositories() = FirebaseFirestore.getInstance()
+
+    @Singleton
+    @Provides
+    fun provideFireStorage() = FirebaseFirestore.getInstance()
 
 }
