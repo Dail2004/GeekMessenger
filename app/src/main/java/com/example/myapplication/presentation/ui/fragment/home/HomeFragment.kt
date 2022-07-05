@@ -23,8 +23,7 @@ class HomeFragment : Fragment() {
 
     }
 
-    private fun setUpActionBar(){
-
+    private fun setUpActionBar() {
     }
 
     override fun onDestroyView() {
